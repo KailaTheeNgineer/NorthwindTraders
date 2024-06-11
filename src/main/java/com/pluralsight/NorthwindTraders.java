@@ -11,6 +11,8 @@ public class NorthwindTraders {
         String url = "jdbc:mysql://localhost:3306/northwind";
         String username = "root";
 
+        System.out.println("All Products by NorthWind: \n");
+
         String query = "SELECT * FROM Products";
 
 
